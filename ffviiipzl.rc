@@ -1,0 +1,240 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <winresrc.h>
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include <winresrc.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 311, 292
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "FFVIII Puzzle"
+MENU IDR_MENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BU00,7,7,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU01,105,7,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU02,203,7,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU10,7,99,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU11,105,99,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU12,203,99,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU20,7,191,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU21,105,191,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BU22,203,191,100,94,BS_BITMAP | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_IMAGE DIALOGEX 0, 0, 289, 266
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "FFVIII Puzzle"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_BMPRAIJIN,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,
+                    0,20,20
+    DEFPUSHBUTTON   "&OK",IDOK,250,250,38,16,0,WS_EX_TRANSPARENT | 
+                    WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 285
+    END
+
+    IDD_IMAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Restart\tF2",                IDF_RESTART
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               IDF_EXIT
+    END
+    POPUP "&Help", HELP
+    BEGIN
+        MENUITEM "&View Image\tF1",             IDH_VIEWIMAGE
+        MENUITEM "&About",                      IDH_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP00               BITMAP  DISCARDABLE     "00.BMP"
+IDB_BMP22               BITMAP  DISCARDABLE     "22.BMP"
+IDB_BMP02               BITMAP  DISCARDABLE     "02.BMP"
+IDB_BMP10               BITMAP  DISCARDABLE     "10.BMP"
+IDB_BMP11               BITMAP  DISCARDABLE     "11.BMP"
+IDB_BMP12               BITMAP  DISCARDABLE     "12.BMP"
+IDB_BMP20               BITMAP  DISCARDABLE     "20.BMP"
+IDB_BMP21               BITMAP  DISCARDABLE     "21.BMP"
+IDB_BMP01               BITMAP  DISCARDABLE     "01.BMP"
+IDB_BMPRAIJIN           BITMAP  DISCARDABLE     "raijin.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_F1,          IDH_VIEWIMAGE,          VIRTKEY, NOINVERT
+    VK_F2,          IDF_RESTART,            VIRTKEY, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Created by Sharfuddin [Last Built: Jan 13 | 2002]\0"
+            VALUE "CompanyName", "Umm, hold on, I'll come up with one some day.\0"
+            VALUE "FileDescription", "Final Fantasy VIII Puzzle Game\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FFVIIPZL.EXE\0"
+            VALUE "LegalCopyright", "Copyright © 2002\0"
+            VALUE "LegalTrademarks", "Final Fantasy, and Final Fantasy VIII are registered trademarks of SquareSoft EA. Any other products, not mentioned, are registered trademarks of their respective owners.\0"
+            VALUE "OriginalFilename", "FFVIIIPZL.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Final Fantasy VIII Puzzle\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

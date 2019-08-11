@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0e2a327f-e3cf-4b6d-ad18-4a89d0f85db6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{00ba3c55-8a1e-45fe-9df8-7cd051e468a7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6eb09d5a-e578-4c6b-85e9-7b1ec7ca5dfa}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ffviiipzl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ffviiipzl.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gmat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="00.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="01.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="02.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="10.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="11.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="12.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="20.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="21.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="22.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="raijin.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
