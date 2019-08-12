@@ -8,5 +8,5 @@ Picture of Raijin fishing is from SquareSoft's Final Fantasy VIII and they own c
 Unicode_Release\offviiipz.exe was last built in 2005 and still runs on Windows 10!
 Unicode_Release\ffviiipzl.exe was recompiled with VS2019. You may need MFC and ATL installed to recompile.
 
-![](https://raw.githubusercontent.com/farfella/ffviiipzl/master/completed.png)
 Picture of Raijin (c) Square Enix.
+![](https://raw.githubusercontent.com/farfella/ffviiipzl/master/completed.png)
